@@ -1,0 +1,63 @@
+/*  -----   Website Features   ----  */
+
+html {
+	background: #000;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Georgia", serif;
+	overflow-y: hidden;
+
+}
+
+/*  -----   Background Image   ----  */
+
+.container,
+img {
+	height: 100%;
+	margin: 0 0 -16em 0;
+	position: relative;
+	z-index: -1;
+}
+
+/*  -----   Info Bar   ----  */
+
+#info-bar {
+	width: 100%;
+	height: 16em;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 1% 1% 0 1%;
+}
+
+/*  -----   Article Boxes   ----  */
+
+article {
+	display: inline-block;
+	width: 20.5%;
+	height: 70%;
+	margin: 1%;
+
+	background: rgba(248, 248, 248, 0.5);
+	overflow-y: scroll;
+}
+
+h2,
+p {
+	color: rgb(40, 40, 40);
+}
+
+h2 {
+	font-weight: 400;
+}
+
